@@ -1,0 +1,21 @@
+/* sidebar start */
+#sidebar {
+    position:fixed;
+    width:200px;
+    height:100%;
+    left:0px;
+    transition:all 500ms linear;
+  }
+  
+  #sidebar.active {
+    left:-200px;
+  }
+  
+  #sidebar ul li {
+  
+    list-style:none;
+    
+  }
+
+  
+  /* sidebar end */
